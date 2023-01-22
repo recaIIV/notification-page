@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(210, 60%, 98%);
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 100%;
+}
+strong {
+    color: hsl(219, 12%, 42%);
+}
+b {
+    color:hsl(219, 14%, 63%);
+}
+p{
+    color: hsl(219, 14%, 63%);
+}
+img {
+    width: 80%;
+}
+strong:hover ,b:hover {
+    color:  hsl(219, 85%, 26%);
+}
+.light {
+    font-size:small;
+}
+.read {
+    font-size:small;
+}
+i {
+    color: hsl(1, 90%, 64%);
+    font-size:10px ;
+}
+.container {
+    margin: 5% 20%;
+    padding: 0 5%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+}
+
+.notify{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0;
+
+}
+.notify h3 span {
+    background-color: hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+    padding: 0 7px;
+    border: none;
+    border-radius: 4px;
+}
+.notify p{
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+}
+.notify p:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+.notify h3 {
+    font-weight: 800;
+}
+
+/* #profile_one, #profile_two, #profile_three {
+    background-color: hsla(240, 20%, 96%, 0.849);
+}
+#profile_one:hover, #profile_two:hover, #profile_three:hover {
+    background-color: hsl(210, 60%, 98%);
+} */
+.show{
+    background-color: hsla(240, 20%, 96%, 0.849);
+}
+.not{
+    padding: 4%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.not .comment p{
+     text-align: left;
+     margin-left: 2%;
+}
+.not:hover {
+    background-color: hsl(210, 60%, 98%);
+    cursor: pointer;
+}
+.comment {
+    width: 100%
+}
+
+.f {
+    border: 1px solid hsl(240, 2%, 89%);
+    padding: 4% 4%;
+    border-radius: 3px;
+    margin-bottom: 2%;
+    width: 85%;
+    margin-left: 14%;
+    text-align: left;
+}
+.f:hover {
+    background-color: hsl(205, 33%, 90%);
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .f{
+        width: 70%;
+        margin-left: 30%;
+    }
+}
+
+.marked {
+    background-color:hsl(0, 0%, 100%) ;
+
+}
+
+.attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+.attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    
